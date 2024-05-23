@@ -1,0 +1,7 @@
+<div>
+  <h1>This is list of blog posts</h1>
+
+  {{#each @model as |blogPost|}}
+    <BlogPost @blogPost={{blogPost}} />
+  {{/each}}
+</div>

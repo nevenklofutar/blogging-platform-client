@@ -1,1 +1,21 @@
 /* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+.main-content-wrapper {
+  padding: 10px;
+}
+
+.blog-post-wrapper {
+  border: 1px solid red;
+  padding: 10px;
+  margin-top: 12px;
+}
